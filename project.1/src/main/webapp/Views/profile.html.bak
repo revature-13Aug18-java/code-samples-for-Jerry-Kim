@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+  </head>
+  <body>
+    
+    <script type="text/javascript" src="Scripts/getEmployees.js"></script>
+  </body>
+</html>

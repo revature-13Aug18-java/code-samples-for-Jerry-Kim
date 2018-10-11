@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PROFILE</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="/heyo/Scripts/jQuery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/heyo/Styles/main.css">
+
+  </head>
+  <body >
+    <nav id="navbar">
+      <a id="newReq" href="/heyo/employee/request?action=new">New Reimbursement Request</a>
+      <a id="viewReq" href="/heyo/employee/request?action=view">View Reimbursements</a>
+      <a id="edit" href="/heyo/employee/profile?action=edit">edit</a>
+      <a href="http://localhost:8080/heyo/logout">logout</a>
+    </nav>
+    <section id="Profile">
+      <div id="username"><span>Username: </span><img src=""/></div>
+      <div id="firstName"></div>
+      <div id="lastName"></div>
+      <div id="title"></div>
+      <div id="reportsTo"></div>
+      <div id="departmentId"></div>
+    </section>
+    <script type="text/javascript" src="/heyo/Scripts/getProfile.js"></script>
+  </body>
+</html>

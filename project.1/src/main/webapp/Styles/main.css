@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  color: #b3aca7;
+  width: 600px; 
+  margin: 100px auto;
+ font-size: 1.5em;
+font-weight: 100; 
+}
+section {
+  background-color: #fff;
+  color: #b3aca7;
+  font-weight: normal;
+}
+
+span {
+  font-weight: bold;
+  color: #b3aca7;
+}
+
+a {
+  font-weight: normal;
+  color: #86c0ff;
+}
+
+
