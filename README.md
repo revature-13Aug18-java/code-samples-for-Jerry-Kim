@@ -5,3 +5,30 @@
 **project.1** - *web application for managing company reimbursement requests* - contains all source code for project 1
 
 **project.2** - *full stack web application for discovering recipes online* - contains source code files of project 2 that I created or made any significant contributions to 
+
+<table>
+  <tr>
+    <th> - </th>
+    <th>Project0</th>
+    <th>Project1</th>
+    <th>Project2</th>
+  </tr>
+  <tr>
+    <th>Languages</th>
+    <td>PL/SQL, Java</td>
+    <td>PL/SQL, Java, HTML, CSS, JavaScript</td>
+    <td>PL/SQL, Java, HTML, CSS, TypeScript</td>
+  </tr>
+  <tr>
+    <th>Platforms & APIs</th>
+    <td>Ubuntu, Bootstrap, HTML, Bash, JDBC</td>
+    <td>Tomcat, Bootstrap, HTML, Java Servlets, JQuery, Oracle Database, H2, JDBC</td>
+    <td>AWS, BootStrap, Angular, <br>Oracle Database, H2, <br>Hibernate, Spring (Boot, ORM, MVC)</td>
+  </tr>
+  <tr>
+    <th>Tools</th>
+    <td>javac, github, git, javac, Maven, SQL*Plus, log4j, JUnit</td>
+    <td>javac, Maven, git, github, SQL*Plus, SonarQube, log4j</td>
+    <td>github, git, ssh, sqlcl, Maven, Angular Lint</td>
+  </tr>
+</table>
