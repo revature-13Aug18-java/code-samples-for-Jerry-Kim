@@ -27,8 +27,8 @@
   </tr>
   <tr>
     <th>Tools</th>
-    <td>javac, github, git, javac, Maven, SQL*Plus, log4j, JUnit</td>
-    <td>javac, Maven, git, github, SQL*Plus, SonarQube, log4j</td>
-    <td>github, git, ssh, sqlcl, Maven, Angular Lint</td>
+    <td>maven, javac, github, git, javac, SQL*Plus, log4j, JUnit</td>
+    <td>maven, javac, github, git, SQL*Plus, SonarQube, log4j</td>
+    <td>maven, github, git, ssh, SQL*Plus, Angular Lint</td>
   </tr>
 </table>
