@@ -58,3 +58,5 @@ An authentication token is created using auth0 api:
       .sign(algorithm);
 ```
 
+full project here;
+[user component](https://github.com/revaturelabs/rideshare-user-service)
