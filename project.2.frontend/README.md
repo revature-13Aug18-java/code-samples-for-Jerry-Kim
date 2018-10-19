@@ -11,6 +11,26 @@ What's Cooking allows you to explore and manage recipes.
  - Users can register an account to save their favorite recipes
  - Users can browse chef recommended recipes 
  - Users can be of type `user` or `chef`. Saved recipes by chefs are public and can be accessed by any user by following the `recommended` link in the navbar. At present, users of type chef can be registered only by directly inserting one into the database, which requires access to the backend (lesoptimates.project2.backend)
+# technologies used
+
+<table>
+  <tr>
+    <th> - </th>
+    <th>Project2</th>
+  </tr>
+  <tr>
+    <th>Languages</th>
+    <td>PL/SQL, Java, HTML, CSS, TypeScript</td>
+  </tr>
+  <tr>
+    <th>Platforms & APIs</th>
+    <td>AWS, BootStrap, Angular, <br>Oracle Database, H2, <br>Hibernate, Spring (Boot, ORM, MVC)</td>
+  </tr>
+  <tr>
+    <th>Tools</th>
+    <td>maven, github, git, ssh, SQL*Plus, Angular Lint</td>
+  </tr>
+</table>
 
 # the code
 This follows Angular 4 style and directory hierarchy. 
@@ -18,12 +38,7 @@ All sub components are in their own directories and directly attached to the roo
 
 As for naming and other coding practices, we tried to keep things consistent. Dependencies are declared as the same as their class name but with lowercase first letter. `HttpRequests` are supposed to be done in services and returned as `Observable`. 
 
-Occasionally (i.e. frequently) it and the data processing are contained entirely within the relevant component. Depends if we had time to change it. Links are generally, if not totally, to absolute path names (we do plan to change this). 
 Variables may be typed or not. Again, depends if we had time. Concerning more complicated types - i.e. json in the http response - `any` was used mostly, but we did confirm a working version using one of the `models`.
-
-We debugged with console logs (sorry) so those are found all over the place still. 
-
-At present, urls are mostly hardcoded instead of global values. 
 
 ## Components
 ### Home (/home)
@@ -65,3 +80,5 @@ There are two services in use. `RecipeService` is meant to handle coordination b
 `error/*`
 
 module to contain handling of `HttpErrorResponse` and bad links
+
+
