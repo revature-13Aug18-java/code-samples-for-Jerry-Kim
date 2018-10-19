@@ -23,7 +23,7 @@ Core component in the microservice based app that defines the models and service
     <td>maven, javac, github, git, javac, logback, JUnit</td>
   </tr>
 </table>
-The readme for this microservice is located at /README.md.old. Instructions are written to ease future developers into the setup, which are environment variables, database and dependency.
+The readme for this microservice is located at /README.md.old. Instructions are written to ease future developers into the setup, which are environment variables, database and dependency. As written, it is a amalgram of the contents of two branches, _readme_ and  _readme-lombok_. 
 
 Logging is done at three different levels. Output is to the console and to files, which are filtered for root level and service level log statements. It will be helpful to include code snippet here to understand how messages at the error level are logged, which happens whenever an exception is thrown. To reduce code duplication that would happen by inserting a logger inside every catch block, a custom class, `CustomException`, which extends `Exception`, was made to log the message inside the constructor, intercepting the child class's call to `super`:
 
