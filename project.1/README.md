@@ -6,10 +6,15 @@ This application allows for:
 - _employees_ to submit reimbursement requests
 - _managers_ to reject or approve requests
 - authenticating & authorizing clients
-# Views.sql
+## Views.sql
+PL/SQL statements of views. From a the Employee table populated with employee information, the views segregate manager and employee roles. 
 
-Contains pl/sql statements to create the views that filters a database filled with data of my own for managers and employee types and then saves them into views. 
+## Servlets 
+Classes that define endpoints and that service requests. Servlets here either render views or act as middleware between the persistence and presentation layers. DOAs are responsible for querying the database. 
 
+# Models
+Employee and Manager are classed under the same schema. Only field value of `title` discerns one instance of Employee from another with respect to status. Employee of title `manager` (from now on _Manager_) are authorized to view and do work on requests.  
+# Technologies 
 <table>
   <tr>
     <th> - </th>
