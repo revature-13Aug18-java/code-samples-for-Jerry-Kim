@@ -1,5 +1,11 @@
 # Employee Reimbursement System
 Web application for a company's associates to request and handle reimbursements.
+
+This application allows for:
+- Designating employee roles _employee_ or _manager_
+- _employees_ to submit reimbursement requests
+- _managers_ to reject or approve requests
+- authenticating & authorizing clients
 # Views.sql
 
 Contains pl/sql statements to create the views that filters a database filled with data of my own for managers and employee types and then saves them into views. 
