@@ -1,10 +1,5 @@
 # Overview
-_What's Cooking_ allows you to explore and manage recipes. 
-# Installation
-
-`npm install`
-
-`ng serve`
+_What's Cooking_ allows you to explore and save recipes. It calls an external api to retrieve recipes based on search. Users are distinguished by user roles, _chef_ and _user_.
 
 # features
  - Users can explore recipes by ingredients or recipe name
@@ -36,7 +31,7 @@ _What's Cooking_ allows you to explore and manage recipes.
 This follows Angular 4 style and directory hierarchy. 
 All sub-components are in their own directories and directly attached to the root. Services are located outside. Models, which model the jsons returned from api calls, are in `models/`. This application also uses Angular routing, which is configured in its own module in the root directory. 
 
-As for naming and other coding practices, we tried to keep things consistent. Dependencies are declared as the same as their class name but with lowercase first letter. `HttpRequests`' although supposed to be done in services and returned as `Observable`, may be found tied in with Component.
+As for naming and other coding practices, we tried to keep things consistent. Dependencies are declared as the same as their class name but with lowercase first letter. `HttpRequests`, although supposed to be done in services and returned as `Observable`, may be found tied in with Component.
 
 Variables may be typed or not. Depends if we had time. Concerning the more complicated type - i.e. the json in the http response - `any` was used mostly, but we did confirm a working version using one of the `models`.
 
