@@ -12,8 +12,8 @@ PL/SQL statements of views. From a the Employee table populated with employee in
 ## Servlets 
 Classes that define endpoints and that service requests. Servlets here either render views or act as middleware between the persistence and presentation layers. DOAs are responsible for querying the database. 
 
-# Models
-Employee and Manager are classed under the same schema. Only field value of `title` discerns one instance of Employee from another with respect to status. Employee of title `manager` (from now on _Manager_) are authorized to view and do work on requests.  
+## Models
+Employee and Manager are classed under the same schema. Only field value of `title` discerns one instance of Employee from another with respect to user privileges. Employee of title `manager` are authorized to view and do work on requests.  
 # Technologies 
 <table>
   <tr>
@@ -35,4 +35,4 @@ Employee and Manager are classed under the same schema. Only field value of `tit
 </table>
 
 See full application:
-[*web application for managing company reimbursement requests*](https://github.com/jbki/ERS)
+[*employee reimbursement system*](https://github.com/jbki/ERS)
