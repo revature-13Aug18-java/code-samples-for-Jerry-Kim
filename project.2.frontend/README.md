@@ -1,5 +1,5 @@
 # Overview
-What's Cooking allows you to explore and manage recipes. 
+_What's Cooking_ allows you to explore and manage recipes. 
 # Installation
 
 `npm install`
