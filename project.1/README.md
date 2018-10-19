@@ -1,3 +1,5 @@
+# Employee Reimbursement System
+Web application for a company's associates to request and handle reimbursements.
 # Views.sql
 
 Contains pl/sql statements to create the views that filters a database filled with data of my own for managers and employee types and then saves them into views. 
