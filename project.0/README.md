@@ -1,4 +1,13 @@
-# elbancomuchapasta
+# El Banco Mucha Pasta
+Command line banking application. It implements the persistence layer with vanilla Java. It allows for:
+- logging in
+- withdrawing
+- depositing
+- viewing balance
+- persisting to database
+- command line interface
+The app's name, which translates atrociously into English, is a gag in the game Tropico 
+# Technologies Used
 <table>
 <tr>
 <th> - </th>
