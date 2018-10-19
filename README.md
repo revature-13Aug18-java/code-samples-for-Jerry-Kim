@@ -7,3 +7,5 @@
 **project.2 back** - [*full stack web application for discovering recipes online*](https://github.com/jbki/project2/tree/master/backend) - contains source code files of project 2 that I created or made any significant contributions to 
 
 **project.2 front** - [the front end](https://github.com/jbki/project2/tree/master/frontend) - I did most of my contributions here
+
+**project.3** - [user component of ride sharing app for revature associates](https://github.com/revaturelabs/rideshare-user-service)
