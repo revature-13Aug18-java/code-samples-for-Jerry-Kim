@@ -6,6 +6,7 @@ Command line banking application. It implements the persistence layer with vanil
 - viewing balance
 - persisting to database
 - command line interface
+
 The app's name, which translates atrociously into English, is a gag in the game Tropico 
 # Technologies Used
 <table>
