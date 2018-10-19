@@ -34,11 +34,11 @@ _What's Cooking_ allows you to explore and manage recipes.
 
 # the code
 This follows Angular 4 style and directory hierarchy. 
-All sub components are in their own directories and directly attached to the root. Services are located outside. Models, which model the jsons returned from api calls, are in `models/`. This application also uses Angular routing, which is configured in its own module in the root directory. 
+All sub-components are in their own directories and directly attached to the root. Services are located outside. Models, which model the jsons returned from api calls, are in `models/`. This application also uses Angular routing, which is configured in its own module in the root directory. 
 
-As for naming and other coding practices, we tried to keep things consistent. Dependencies are declared as the same as their class name but with lowercase first letter. `HttpRequests` are supposed to be done in services and returned as `Observable`. 
+As for naming and other coding practices, we tried to keep things consistent. Dependencies are declared as the same as their class name but with lowercase first letter. `HttpRequests`' although supposed to be done in services and returned as `Observable`, may be found tied in with Component.
 
-Variables may be typed or not. Again, depends if we had time. Concerning more complicated types - i.e. json in the http response - `any` was used mostly, but we did confirm a working version using one of the `models`.
+Variables may be typed or not. Depends if we had time. Concerning the more complicated type - i.e. the json in the http response - `any` was used mostly, but we did confirm a working version using one of the `models`.
 
 ## Components
 ### Home (/home)
@@ -66,7 +66,7 @@ The navbar displays a link to "Recommended", which routes the user to a list of 
 
 ## Services
 There are two services in use. `RecipeService` is meant to handle coordination between retrieving data from food2fork and retrieving data from our backend. Short story is, there were some git merge problems and a lot of the service's implementations were duplicated into the component where the service ought to have been injected. The `SessionService` manages http sessions - stored on our backend. 
-# unused stuff
+# unused code
 `chefs-repository.service.ts`
 
 `foodcall.*`
@@ -75,7 +75,7 @@ There are two services in use. `RecipeService` is meant to handle coordination b
 
 `results:any[]` in `home/home.component.ts`
 `popper.js` in `index.html`
-# unfinished stuff
+# unfinished code
 
 `error/*`
 
