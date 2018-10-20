@@ -1,4 +1,4 @@
-# code-samples-for-Jerry-Kim
+# code samples for Jerry Kim
 
 **project.0** - *cli for banking service* - contains all source code for project 0
 
