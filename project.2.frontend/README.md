@@ -47,7 +47,7 @@ This is the entry point for users. It also serves as the redirection link for un
 It uses a few Angular directives to conditionally hide or modify certain links (for example, login, save). It uses one-way binding to retrieve user input into the search bar in order to use it as a query parameter to `food2fork`'s api. Instead of using a `routerLink` attribute, the submit button listens for a click event, which commands the `router` to navigate to the `SearchComponent` and pass along data, namely the query parameter. 
 
 ### Search
-`SearchComponent` handles queries to the food2fork api. Search input is passed along as query parameters to the request url and must conform to food2fork api format since currently there is no handler for that. 
+`SearchComponent` handles queries to the food2fork api. Search input is passed along as query parameters to the request url.
 
 Inside `search.component.ts` there is code to trigger animations on the save button. This did not make it into the current iteration.
 
@@ -78,4 +78,5 @@ module to contain handling of `HttpErrorResponse` and bad links
 
 Full project here:
 [backend](https://github.com/jbki/project2/tree/master/backend)
+
 [the front end](https://github.com/jbki/project2/tree/master/frontend)
