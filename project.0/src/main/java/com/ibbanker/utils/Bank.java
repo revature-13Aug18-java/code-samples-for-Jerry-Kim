@@ -1,7 +1,7 @@
-package com.ibbanker.utils;
-import com.ibbanker.models.User;
-import com.ibbanker.utils.Connect;
-import com.ibbanker.dao.*;
+package com.nboarizona.utils;
+import com.nboarizona.models.User;
+import com.nboarizona.utils.Connect;
+import com.nboarizona.dao.*;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import java.io.Console;
@@ -28,7 +28,7 @@ public class Bank {
   public static final String E_WITHDRAW = "Something went wrong";
   private static UsersDaoImp uDao = new UsersDaoImp();
   /*TABLE IDENTIFIERS*/
-  private static Logger log = LogManager.getLogger(com.ibbanker.utils.Bank.class.getName());
+  private static Logger log = LogManager.getLogger(com.nboarizona.utils.Bank.class.getName());
   private Bank() {
     super();
   }
